@@ -1,0 +1,12 @@
+[project]
+name = "UpgradeTest3"
+version = "0.1.0"
+description = "Utilities for converting motion data"
+requires-python = ">=3.8"
+
+[project.scripts]
+jsonl2bvh = "converter.cli:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
